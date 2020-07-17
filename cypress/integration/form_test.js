@@ -1,6 +1,6 @@
 describe("Inputs and submit button", () => {
     it("can navigate to the site", () => {
-        cy.visit("http://localhost:3001/pizza")
+        cy.visit("http://localhost:3000/pizza")
         cy.url().should("include", "localhost")
     })
 

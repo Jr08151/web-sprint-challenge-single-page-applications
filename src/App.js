@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Switch, Route, Link } from 'react-router-dom';
 import Home from "./Home";
 import Form from "./Form";
-import formSchema from "./formSchema";
+import formSchema from "./formschema";
 import * as Yup from "yup";
 
 const initialFormValues = {
